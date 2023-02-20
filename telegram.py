@@ -8,6 +8,7 @@ t = open('tel_token.py', 'r', encoding='utf8')
 TOKEN = t.read()
 t.close()
 
+#https://t.me/tenthree_bot
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
